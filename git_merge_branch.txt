@@ -1,0 +1,1059 @@
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ ls
+AcademiaMainframeJava/
+AcademiaModuloGIT2/
+AcademJMF/
+AppData/
+'Application Data'@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+Pictures/
+PrintHood@
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+Tracing/
+Videos/
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ cd AcademiaModuloGIT2/
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ cd..
+bash: cd..: command not found
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ cd ..
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ ls
+AcademiaMainframeJava/
+AcademiaModuloGIT2/
+AcademJMF/
+AppData/
+'Application Data'@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+Pictures/
+PrintHood@
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+Tracing/
+Videos/
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git mv AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: Not a git repository (or any of the parent directories): .git
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ ls
+AcademiaMainframeJava/
+AcademiaModuloGIT2/
+AcademJMF/
+AppData/
+'Application Data'@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+Pictures/
+PrintHood@
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+Tracing/
+Videos/
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ cd AcademiaModuloGIT2/
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git mv AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: bad source, source=AcademiaModuloGIT2, destination=AcademiaModuloGIT
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git log
+commit 9b6c8a15722cc546456eec6874c490157d41c66f
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 18:09:30 2017 -0600
+
+    add practice file 27-03-2017
+
+commit 12f814ccbed773fbd1e912514b4273677218abf3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:53:39 2017 -0600
+
+    restore Repository - add/delete names
+
+commit f2b1a0bdf846334f64d1abbc80d6079e395f4205
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:44:49 2017 -0600
+
+    add last 3 names after github
+
+commit d67950998284eb5f4d7d7d3ccc45bf0d2f6464a3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:29:07 2017 -0600
+
+    add readme file
+
+commit d584da13a2fdf8f4d1f59f2bbb1a27093f999bae
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:00:44 2017 -0600
+
+    new names to original file
+
+commit d00b6021d3000eccfa93a7d4c1d87a2b451ae214
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 16:56:50 2017 -0600
+
+    new names
+
+commit 490b3b0c06fcea355fb37d856f18357575c610f6
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 16:50:04 2017 -0600
+
+    add names from people in the Academy
+ ESCOD
+    add last 3 names after github
+
+commit 9b6c8a15722cc546456eec6874c490157d41c66f
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 18:09:30 2017 -0600
+
+    add practice file 27-03-2017
+
+commit 12f814ccbed773fbd1e912514b4273677218abf3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:53:39 2017 -0600
+
+    restore Repository - add/delete names
+
+commit f2b1a0bdf846334f64d1abbc80d6079e395f4205
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:44:49 2017 -0600
+
+    add last 3 names after github
+
+commit d67950998284eb5f4d7d7d3ccc45bf0d2f6464a3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:29:07 2017 -0600
+
+    add readme file
+
+commit d584da13a2fdf8f4d1f59f2bbb1a27093f999bae
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:00:44 2017 -0600
+
+    new names to original file
+
+commit d00b6021d3000eccfa93a7d4c1d87a2b451ae214
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 16:56:50 2017 -0600
+
+    new names
+
+commit 490b3b0c06fcea355fb37d856f18357575c610f6
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 16:50:04 2017 -0600
+
+    add names from people in the Academy
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git mv AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: bad source, source=AcademiaModuloGIT2, destination=AcademiaModuloGIT
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git mv -f AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: bad source, source=AcademiaModuloGIT2, destination=AcademiaModuloGIT
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ cd ..
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git mv -f AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: Not a git repository (or any of the parent directories): .git
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git mv AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: Not a git repository (or any of the parent directories): .git
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ cd AcademiaModuloGIT2
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git mv AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: bad source, source=AcademiaModuloGIT2, destination=AcademiaModuloGIT
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git mv AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: bad source, source=AcademiaModuloGIT2, destination=AcademiaModuloGIT
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git description
+git: 'description' is not a git command. See 'git --help'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git --help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git help mv
+Launching default browser to display HTML ...
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ cd ..
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git mv -f AcademiaModuloGIT2/ AcademiaModuloGIT/
+fatal: Not a git repository (or any of the parent directories): .git
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git help .a
+Launching default browser to display HTML ...
+fatal: failed to launch browser for C:\Program Files\Git\mingw64/share/doc/git-d
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git help -a
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+available git commands in 'C:\Program Files\Git\mingw64/libexec/git-core'
+
+  add                 fsck-objects        rebase
+  add--interactive    gc                  receive-pack
+  am                  get-tar-commit-id   reflog
+  annotate            grep                relink
+  apply               gui                 remote
+  archimport          gui--askpass        remote-ext
+  archive             gui--askyesno       remote-fd
+  bisect              gui.tcl             remote-ftp
+  bisect--helper      hash-object         remote-ftps
+  blame               help                remote-http
+  branch              http-backend        remote-https
+  bundle              http-fetch          repack
+  cat-file            http-push           replace
+  check-attr          imap-send           request-pull
+  check-ignore        index-pack          rerere
+  check-mailmap       init                reset
+  check-ref-format    init-db             rev-list
+  checkout            instaweb            rev-parse
+  checkout-index      interpret-trailers  revert
+  cherry              log                 rm
+  cherry-pick         ls-files            send-email
+  citool              ls-remote           send-pack
+  clean               ls-tree             sh-i18n--envsubst
+  clone               mailinfo            shortlog
+  column              mailsplit           show
+  commit              merge               show-branch
+  commit-tree         merge-base          show-index
+  config              merge-file          show-ref
+  count-objects       merge-index         stage
+  credential          merge-octopus       stash
+  credential-manager  merge-one-file      status
+  credential-store    merge-ours          stripspace
+  credential-wincred  merge-recursive     submodule
+  cvsexportcommit     merge-resolve       submodule--helper
+  cvsimport           merge-subtree       subtree
+  cvsserver           merge-tree          svn
+  daemon              mergetool           symbolic-ref
+  describe            mktag               tag
+  diff                mktree              unpack-file
+  diff-files          mv                  unpack-objects
+  diff-index          name-rev            update-index
+  diff-tree           notes               update-ref
+  difftool            p4                  update-server-info
+  difftool--helper    pack-objects        upload-archive
+  fast-export         pack-redundant      upload-pack
+  fast-import         pack-refs           var
+  fetch               patch-id            verify-commit
+  fetch-pack          prune               verify-pack
+  filter-branch       prune-packed        verify-tag
+  fmt-merge-msg       pull                web--browse
+  for-each-ref        push                whatchanged
+  format-patch        quiltimport         worktree
+  fsck                read-tree           write-tree
+
+git commands available from elsewhere on your $PATH
+
+  flow
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ cd AcademiaModuloGIT2/
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ git mv AcademiaModuloGIT2 AcademiaModuloGIT
+fatal: bad source, source=AcademiaModuloGIT2, destination=AcademiaModuloGIT
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT2 (master)
+$ cd ..
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ ls
+AcademiaMainframeJava/  ntuser.dat.LOG1
+AcademiaModuloGIT/      ntuser.dat.LOG2
+AcademJMF/              NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+AppData/                NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMConta
+'Application Data'@     NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMConta
+Contacts/               ntuser.ini
+Cookies@                ntuser.pol
+Desktop/                Pictures/
+Documents/              PrintHood@
+Downloads/              Recent@
+Favorites/              'Saved Games'/
+Links/                  Searches/
+'Local Settings'@       SendTo@
+Music/                  'Start Menu'@
+'My Documents'@         Templates@
+NetHood@                Tracing/
+NTUSER.DAT              Videos/
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ cd AcademiaModuloGIT/
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add .
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   names2.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "add new names to names2.txt"
+[master cd249b5] add new names to names2.txt
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/vjgr/Prueba1.git
+   9b6c8a1..cd249b5  master -> master
+Branch master set up to track remote branch master from origin.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git remote -v
+origin  https://github.com/vjgr/Prueba1.git (fetch)
+origin  https://github.com/vjgr/Prueba1.git (push)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ ^C
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git checkout testMaster1
+Switched to branch 'testMaster1'
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ ls
+git_practice.txt  names.txt  names2.txt  names3.txt  README.md
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git push -u origin testMaster1
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/vjgr/Prueba1.git
+ * [new branch]      testMaster1 -> testMaster1
+Branch testMaster1 set up to track remote branch testMaster1 from origin.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git status
+On branch testMaster1
+Your branch is up-to-date with 'origin/testMaster1'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   names3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+M       names3.txt
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   names3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git checkout testMaster1
+M       names3.txt
+Switched to branch 'testMaster1'
+Your branch is up-to-date with 'origin/testMaster1'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git status
+On branch testMaster1
+Your branch is up-to-date with 'origin/testMaster1'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   names3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git add names3.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+M       names3.txt
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   names3.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "names3 modified"
+[master f0b451d] names3 modified
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git checkout testMaster1
+Switched to branch 'testMaster1'
+Your branch is up-to-date with 'origin/testMaster1'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git status
+On branch testMaster1
+Your branch is up-to-date with 'origin/testMaster1'.
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git branch -a
+  master
+* testMaster1
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git log
+commit cd249b58fa8b4a525f35590ed32cee8f5d9f2c80
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Tue Mar 28 11:44:43 2017 -0600
+
+    add new names to names2.txt
+
+commit 9b6c8a15722cc546456eec6874c490157d41c66f
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 18:09:30 2017 -0600
+
+    add practice file 27-03-2017
+
+commit 12f814ccbed773fbd1e912514b4273677218abf3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:53:39 2017 -0600
+
+    restore Repository - add/delete names
+
+commit f2b1a0bdf846334f64d1abbc80d6079e395f4205
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:44:49 2017 -0600
+
+    add last 3 names after github
+
+commit d67950998284eb5f4d7d7d3ccc45bf0d2f6464a3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:29:07 2017 -0600
+
+    add readme file
+
+commit d584da13a2fdf8f4d1f59f2bbb1a27093f999bae
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:00:44 2017 -0600
+
+    new names to original file
+
+commit d00b6021d3000eccfa93a7d4c1d87a2b451ae214
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 16:56:50 2017 -0600
+
+    new names
+
+commit 490b3b0c06fcea355fb37d856f18357575c610f6
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 16:50:04 2017 -0600
+
+    add names from people in the Academy
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git log
+commit f0b451dd5a410d4425ca51a49f94c11f4747fcc9
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Tue Mar 28 12:05:49 2017 -0600
+
+    names3 modified
+
+commit cd249b58fa8b4a525f35590ed32cee8f5d9f2c80
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Tue Mar 28 11:44:43 2017 -0600
+
+    add new names to names2.txt
+
+commit 9b6c8a15722cc546456eec6874c490157d41c66f
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 18:09:30 2017 -0600
+
+    add practice file 27-03-2017
+
+commit 12f814ccbed773fbd1e912514b4273677218abf3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:53:39 2017 -0600
+
+    restore Repository - add/delete names
+
+commit f2b1a0bdf846334f64d1abbc80d6079e395f4205
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:44:49 2017 -0600
+
+    add last 3 names after github
+
+commit d67950998284eb5f4d7d7d3ccc45bf0d2f6464a3
+Author: Victor Gallegos <victor.gallegos@softtek.com>
+Date:   Mon Mar 27 17:29:07 2017 -0600
+
+    add readme file
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -d testMaster1
+Deleted branch testMaster1 (was cd249b5).
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ ^C
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch .a
+fatal: '.a' is not a valid branch name.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git remote update
+Fetching origin
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git remote -v
+origin  https://github.com/vjgr/Prueba1.git (fetch)
+origin  https://github.com/vjgr/Prueba1.git (push)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git remote update
+Fetching origin
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch .a
+fatal: '.a' is not a valid branch name.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git checkout origin/testMaster1
+Note: checking out 'origin/testMaster1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at cd249b5... add new names to names2.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT ((cd249b5...))
+$ git checkout testMaster1
+Branch testMaster1 set up to track remote branch testMaster1 from origin.
+Switched to a new branch 'testMaster1'
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git branch -a
+  master
+* testMaster1
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        names3.txt
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git status
+On branch testMaster1
+Your branch is up-to-date with 'origin/testMaster1'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   names3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git add .
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git commit -m "add new lines names3 Branch testMaster1"
+[testMaster1 1366e75] add new lines names3 Branch testMaster1
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ cat names3.txt
+Hugo Carlos
+Josefina
+Rafael
+Campos TEstmaster1
+2do Campo Master
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git checkout testMaster1
+Switched to branch 'testMaster1'
+Your branch is ahead of 'origin/testMaster1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ cat names3.txt
+Hugo Carlos
+Josefina
+Rafael
+
+lksdjfoasdjkf▒kl
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ cat names3.txt
+Hugo Carlos
+Josefina
+Rafael
+Campos TEstmaster1
+2do Campo Master
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git diff master/names3.txt testMaster1/names3.txt
+fatal: ambiguous argument 'master/names3.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git diff master/names3.txt..testMaster1/names3.txt
+fatal: ambiguous argument 'master/names3.txt..testMaster1/names3.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git diff master/names3.txt--testMaster1/names3.txt
+fatal: ambiguous argument 'master/names3.txt--testMaster1/names3.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/vjgr/Prueba1
+   cd249b5..6bc5832  master     -> origin/master
+Auto-merging names3.txt
+CONFLICT (content): Merge conflict in names3.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   names3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git add names3.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   names3.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git commit -m "fix conflict names3.txt"
+[master 7e19a4b] fix conflict names3.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 600 bytes | 0 bytes/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local objects.
+To https://github.com/vjgr/Prueba1.git
+   6bc5832..7e19a4b  master -> master
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git checkout testMaster1
+Switched to branch 'testMaster1'
+Your branch is ahead of 'origin/testMaster1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 325 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/vjgr/Prueba1.git
+ * [new branch]      testMaster1 -> testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git merge testMaster1
+Auto-merging names3.txt
+CONFLICT (content): Merge conflict in names3.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   names3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git add names3.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   names3.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master|MERGING)
+$ git commit -m "reintegration"
+[master 04d6f48] reintegration
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 330 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/vjgr/Prueba1.git
+   7e19a4b..04d6f48  master -> master
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git checkout testMaster1
+Switched to branch 'testMaster1'
+Your branch is up-to-date with 'origin/testMaster1'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git rebase master
+First, rewinding head to replay your work on top of it...
+Fast-forwarded testMaster1 to master.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ cat names3.txt
+Hugo Carlos
+Josefina
+Rafael
+Campos TEstmaster1
+2do Campo Master
+3938475
+lksdjfoasdjkf▒kl
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git status
+On branch testMaster1
+Your branch is ahead of 'origin/testMaster1' by 4 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/vjgr/Prueba1.git
+   1366e75..04d6f48  testMaster1 -> testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git branch -D testMaster1
+error: Cannot delete branch 'testMaster1' checked out at 'C:/Users/victor.gallegos/AcademiaModuloGIT'
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (testMaster1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -D testMaster1
+Deleted branch testMaster1 (was 04d6f48).
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git remote update
+Fetching origin
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git push origin --delete testMaster1
+To https://github.com/vjgr/Prueba1.git
+ - [deleted]         testMaster1
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -d testMaster1
+error: branch 'testMaster1' not found.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git remote update
+Fetching origin
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$
