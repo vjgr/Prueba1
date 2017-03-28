@@ -1,0 +1,336 @@
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ ls
+AcademiaMainframeJava/  ntuser.dat.LOG1
+AcademiaModuloGIT/      ntuser.dat.LOG2
+AcademJMF/              NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+AppData/                NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+'Application Data'@     NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+Contacts/               ntuser.ini
+Cookies@                ntuser.pol
+Desktop/                Pictures/
+Documents/              PrintHood@
+Downloads/              Recent@
+Favorites/              'Saved Games'/
+Links/                  Searches/
+'Local Settings'@       SendTo@
+Music/                  'Start Menu'@
+'My Documents'@         Templates@
+NetHood@                Tracing/
+NTUSER.DAT              Videos/
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ cd AcademiaModuloGIT/
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ ls
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ rm -r .git
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT
+$ ls -la
+total 12
+drwxr-xr-x 1 victor.gallegos 1049089 0 Mar 27 16:35 ./
+drwxr-xr-x 1 victor.gallegos 1049089 0 Mar 27 16:28 ../
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT
+$ ls -la
+total 13
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:35 ./
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:28 ../
+-rw-r--r-- 1 victor.gallegos 1049089 29 Mar 27 16:35 names.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT
+$ git init
+Initialized empty Git repository in C:/Users/victor.gallegos/AcademiaModuloGIT/.git/
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ ls -la
+total 17
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:37 ./
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:28 ../
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:37 .git/
+-rw-r--r-- 1 victor.gallegos 1049089 29 Mar 27 16:35 names.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add names.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ ls -la
+total 17
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:37 ./
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:28 ../
+drwxr-xr-x 1 victor.gallegos 1049089  0 Mar 27 16:46 .git/
+-rw-r--r-- 1 victor.gallegos 1049089 29 Mar 27 16:35 names.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   names.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "add names from people in the Academy"
+[master (root-commit) 490b3b0] add names from people in the Academy
+ 1 file changed, 3 insertions(+)
+ create mode 100644 names.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add all
+fatal: pathspec 'all' did not match any files
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add -f
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add .
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add .
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "new names"
+[master d00b602] new names
+ 2 files changed, 6 insertions(+)
+ create mode 100644 names2.txt
+ create mode 100644 names3.txt
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   names.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add .
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   names.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "new names to original file"
+[master d584da1] new names to original file
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ ^C
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ echo "# Prueba1" >> README.md
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add README.MD
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit
+On branch master
+Untracked files:
+        README.md
+
+nothing added to commit but untracked files present
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "add Readme file"
+On branch master
+Untracked files:
+        README.md
+
+nothing added to commit but untracked files present
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "add readme file"
+[master d679509] add readme file
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git remote add origin https://github.com/vjgr/Prueba1.git
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git push -u origin master
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 1003 bytes | 0 bytes/s, done.
+Total 11 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/vjgr/Prueba1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git add .
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   names.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git commit -m "add last 3 names after github"
+[master f2b1a0b] add last 3 names after github
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/vjgr/Prueba1.git
+   d679509..f2b1a0b  master -> master
+Branch master set up to track remote branch master from origin.
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/AcademiaModuloGIT (master)
+$ cd ..
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git clone https://github.com/vjgr/Prueba1.git AcademiaModuloGIT2
+Cloning into 'AcademiaModuloGIT2'...
+remote: Counting objects: 14, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 14 (delta 3), reused 14 (delta 3), pack-reused 0
+Unpacking objects: 100% (14/14), done.
+Checking connectivity... done.
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+
+victor.gallegos@lstkag67446 MINGW64 ~
+$ cd academiamodulogit2
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$ ls
+names.txt  names2.txt  names3.txt  README.md
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$ git add .
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   names.txt
+
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$ git commit -m "restore Repository - add/delete names"
+[master 12f814c] restore Repository - add/delete names
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/vjgr/Prueba1.git
+   f2b1a0b..12f814c  master -> master
+Branch master set up to track remote branch master from origin.
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+victor.gallegos@lstkag67446 MINGW64 ~/academiamodulogit2 (master)
+$
